@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 from retriever import retrieve_dict
 
 recipe = retrieve_dict()
