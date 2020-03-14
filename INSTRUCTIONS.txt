@@ -1,0 +1,19 @@
+Hello!
+
+FOR THE FUNCTIONAL PROTOTYPE, RUN main.py ON TERMINAL! 
+That is what is finished and functional!
+
+Rasa is included here following the instruction on the email to "turn in
+what you have".
+
+As per the instructions in the email, we did not finish working on Rasa.
+The current Rasa setup is basically the first steps, starting to set up domain
+and stories.
+
+The next step would be to finish setting this up basically as an FAQ answerer,
+following the tutorial, then add the ability to track which step we are in 
+and store recipe details, which would get us to basic functionality.
+
+
+Thank you for a great quarter! We hope you and everyone working on this course
+stays safe during the pandemic.
