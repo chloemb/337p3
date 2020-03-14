@@ -1,0 +1,37 @@
+intents:
+- greet
+- answerurl
+- allIngredients
+- allSteps
+- howQuestion
+- whatQuestion
+- goodbye
+
+responses:
+  utter_greet:
+  - text: "Hello, thank you for using Berri app! To start with, please input a url or search term for allrecipes.com"
+
+  utter_answerurl:
+  - text: "Ok, I have loaded {recipe_name}. Would you like to start with the ingredients or steps?"
+
+  utter_allIngredients:
+  - text: "This recipe requires the following ingredients:"
+
+  utter_step:
+  - text: "The next step is {step}"
+
+  utter_stepsdone:
+  - text : "That's all the steps! Please type 'restart' to restart, or feel free to ask something else".
+
+  utter_howQuestion:
+  - text: "To find out how to {procedure}, please consult {link}"
+
+  utter_whatQuestion:
+  - text: "Here is an article on Wikipedia about {item}"
+
+  utter_goodbye:
+  - text : "Great! I hope that helped! Thank you once again for using Berri! Like and subscribe"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
